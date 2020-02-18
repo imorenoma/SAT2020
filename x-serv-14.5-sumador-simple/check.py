@@ -35,7 +35,7 @@ if len(sys.argv) != 2:
     print()
     sys.exit("Usage: $ python check.py login_gitlab")
 
-repo_git = "https://gitlab.etsit.urjc.es/" + sys.argv[1] + "/" + ejercicio
+repo_git = "https://github.com/imorenoma/SAT2020" + sys.argv[1] + "/" + ejercicio
 
 
 aleatorio = str(int(random.random() * 1000000))

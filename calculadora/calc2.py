@@ -8,7 +8,7 @@ CALCULADORA SIMPLE CON PYTHON VERSION 2
 """
 
 if len(sys.argv) != 4:
-    print("Usage Error: $calc2.py OPERATION Number1 Number2")
+    print("Usage Error: $calculadora.py OPERATION Number1 Number2")
 else:
 
     try:
